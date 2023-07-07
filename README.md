@@ -18,7 +18,7 @@ jQuery( () => {
 
    const classExtension = function( elemTarget , winOffset ) {
 		
-	  jQuery( elemTarget ).click(function( e ) {  e.preventDefault(); jQuery( window ).scrollTop(  winOffset );  });
+      jQuery( elemTarget ).click(function( e ) {  e.preventDefault(); jQuery( window ).scrollTop(  winOffset );  });
 	
    }
 	
