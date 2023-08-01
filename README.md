@@ -22,7 +22,7 @@ jQuery( () => {
 	
    }
 	
-   let winL = jQuery( window ).width();	
+   let winL = jQuery( window ).width();	// window.innerWidth
 
    // iPhone 375 
    if( winL == 375  ) {
